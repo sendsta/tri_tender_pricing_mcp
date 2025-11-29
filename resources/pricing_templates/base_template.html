@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{REPORT_TITLE}}</title>
+  <link rel="stylesheet" href="table_style.css" />
+  <link rel="stylesheet" href="branding.css" />
+</head>
+<body class="tt-body">
+  <div class="tt-page">
+    <header class="tt-header">
+      <div class="tt-header-left">
+        <h1 class="tt-title">{{REPORT_TITLE}}</h1>
+        <div class="tt-badge">Tri‑Tender · Pricing Report</div>
+      </div>
+      <div class="tt-header-right">
+        <div>Currency: <strong>{{CURRENCY}}</strong></div>
+        <div>VAT: <strong>{{VAT_PERCENT}}%</strong></div>
+      </div>
+    </header>
+
+    <section class="tt-section">
+      <h2>Overview</h2>
+      <p class="tt-summary">{{SUMMARY}}</p>
+      <div class="tt-meta-grid">
+        <div>
+          <div class="tt-meta-label">Description</div>
+          <div class="tt-meta-value">{{DESCRIPTION}}</div>
+        </div>
+        <div>
+          <div class="tt-meta-label">Notes</div>
+          <div class="tt-meta-value">{{NOTES}}</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tt-section">
+      <h2>Pricing Breakdown</h2>
+      {{PRICING_TABLE}}
+    </section>
+
+    <section class="tt-section tt-disclaimer">
+      <p>
+        Disclaimer: This pricing schedule was generated with assistance from the
+        Tri‑Tender Pricing MCP. All figures are indicative only and must be
+        reviewed, confirmed, and approved by a qualified human decision‑maker
+        before submission to any client or organ of state.
+      </p>
+    </section>
+  </div>
+</body>
+</html>
