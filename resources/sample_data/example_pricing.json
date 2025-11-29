@@ -1,0 +1,27 @@
+{
+  "instructions": "Sample pricing data for demonstration.",
+  "meta": {
+    "description": "Example guarding services for a municipal site",
+    "tender_rules": "Monthly rate per guard, 12\u2011hour shifts, 7 days per week.",
+    "currency": "ZAR",
+    "vat_percent": 15.0,
+    "default_markup_percent": 25.0,
+    "notes": "Illustrative only \u2013 not based on any real tender."
+  },
+  "items": [
+    {
+      "description": "Security Guard Grade C (Day Shift)",
+      "unit": "guard/month",
+      "quantity": 4,
+      "base_rate": 17000.0,
+      "markup_percent": 25.0
+    },
+    {
+      "description": "Security Guard Grade C (Night Shift)",
+      "unit": "guard/month",
+      "quantity": 4,
+      "base_rate": 18000.0,
+      "markup_percent": 25.0
+    }
+  ]
+}
